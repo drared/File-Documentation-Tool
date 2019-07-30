@@ -1,0 +1,15 @@
+List of potential bugs and/or potential features to add
+
+1) If multiple workbooks are open containing sheets with the same codenames, selecting 'main' sheet can produce error
+2) If folder name has a period (ie '.') at some point in name, it will be treated as a crazy long file extension and could lead to 
+  errors when info WS names end up being longer than 36 characters. For example: Archive - removed from working folder on 05.02.2019
+  end up with WS Name: Archive - removed f...0001.2019
+3) Temporary files are being included when it would be better if they were not 
+    (ie Excel temp files such as: ~$AAA_FileDocumentation_To_Use c.xlsm)
+4) Might be useful to list file/folder type in future version
+5) Formating is currently being lost after update. Controlling formating via vba would be preferable
+6) Named ranges is found to be vulnerable and could be made more robust by programmatically resetting on each use
+7) There are multiple instances of loops within loops when it may not be necessary. Could lead to issues with larger numbers of folders or files. See if these can be removed with more efficient sorting...
+8) 
+
+
