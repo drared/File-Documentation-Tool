@@ -9,4 +9,7 @@ List of potential bugs and/or potential features to add
 4) Might be useful to list file/folder type in future version
 5) Formating is currently being lost after update. Controlling formating via vba would be preferable
 6) Named ranges is found to be vulnerable and could be made more robust by programmatically resetting on each use
+7) There are multiple instances of loops within loops when it may not be necessary. Could lead to issues with larger numbers of folders or files. See if these can be removed with more efficient sorting...
+8) 
+
 
